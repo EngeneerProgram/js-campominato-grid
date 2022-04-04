@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;;
+    display:Flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+footer{
+    height: 10vh;
+
+
+}
+
+.logo{
+   width: 100px;
+    vertical-align: middle;
+    
+}
+
+h1{
+    line-height: 50px;
+}
+
+
+.main{
+    height: calc(100vh - 20vh);
+    background-color: aliceblue;
+}
+
+#select{
+    font-size: 20px;
+}
+
+#seleziona_difficoltà, .btn{
+    padding:4px 15px;
+    text-align: center;
+    
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor:pointer;
+    margin:8px;
+}
+
