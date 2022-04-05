@@ -2,50 +2,65 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
 
 header{
-    height: 10vh;;
-    display:Flex;
+    height: 10vh;
+    display:flex;
     justify-content: space-around;
     align-items: center;
-    
-
 }
+
+img{
+    vertical-align: middle;
+}
+
 
 footer{
     height: 10vh;
 
-
 }
-
-.logo{
-   width: 100px;
-    vertical-align: middle;
-    
-}
-
-h1{
-    line-height: 50px;
-}
-
 
 .main{
-    height: calc(100vh - 20vh);
-    background-color: aliceblue;
+   
+    background-color: rgba(127, 255, 212, 1);
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#select{
-    font-size: 20px;
-}
-
-#seleziona_difficoltà, .btn{
-    padding:4px 15px;
-    text-align: center;
-    
+#livello{
     font-size: 15px;
-    letter-spacing: 1px;
-    cursor:pointer;
-    margin:8px;
+    margin:20px;
+}
+
+.btn{
+    font-size: 15px;
+    padding: 1px 6px;
+}
+
+.container{
+    width: 1000px;
+    
+    margin:2rem auto;
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+
+.cells{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.cella{
+    border:1px solid black;
+    aspect-ratio: 1 / 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
